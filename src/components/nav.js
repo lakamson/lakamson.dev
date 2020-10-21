@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Box, Flex, Text } from "@primer/components"
-import Octicon, { MarkGithub } from "@githubprimer/octicons-react"
+//import Octicon, { MarkGithub } from "@githubprimer/octicons-react"
 
 export default function Nav() {
   return (
@@ -10,34 +10,29 @@ export default function Nav() {
         <Flex flex="auto">
           <a
             style={{ color: "inherit" }}
-            href="https://github.com/monatheoctocat"
+            href="https://github.com/lakamson"
           >
             <Flex color="blue.2" alignItems="center">
-              <Octicon
-                icon={MarkGithub}
-                ariaLabel="Primer home"
-                size="medium"
-              />
               <NoWrapText
                 mx={3}
                 fontSize="2"
                 fontWeight="bold"
                 lineHeight="condensed"
               >
-                Mona Lisa
+                Microsoft GitHub Profile
               </NoWrapText>
             </Flex>
           </a>
         </Flex>
         <Flex color="blue.2" alignItems="center">
-          <a href="https://myoctocat.com">
+          <a href="https://github.com/thomaswang/gatsby-starter-primer">
             <NoWrapText
               mx={3}
               fontSize="2"
               fontWeight="bold"
               lineHeight="condensed"
             >
-              Mona's site
+              Gatsby Primer Starter
             </NoWrapText>
           </a>
         </Flex>
