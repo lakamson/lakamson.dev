@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `gatsby-starter-primer`,
+    title: `Lake kamson Developer Site`,
     description: `Open Source Projects from Mona Lisa Octocat, the Github Mascot`,
-    author: `@monatheoctocat`,
-    keywords: `github, open-source, projects`,
-    url: `https://gatsby-starter-primer.netlify.com/`,
+    author: `Lake Kamson`,
+    keywords: `lakamson, github, open-source, projects`,
+    url: `https://lakamson.dev/`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
