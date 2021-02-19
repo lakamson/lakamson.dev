@@ -17,7 +17,7 @@ const Image = ({ alt }) => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "octocat.png" }) {
+        placeholderImage: file(relativePath: { eq: "octoface.png" }) {
           childImageSharp {
             fluid(maxWidth: 400, quality: 100) {
               ...GatsbyImageSharpFluid_tracedSVG
